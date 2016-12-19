@@ -1,0 +1,23 @@
+1) My first step was to prepare the Olimex 328 Board by removing its wire between the R6 pads. Failure to perform this step could result in electrical failure from increase power consumption.
+2) I downloaded the IDE package from the Arduino website. 
+
+
+3) I downloaded 2 libraries required to run Olimex ( Timer one, Timer2)
+
+4) Next I arranged the EKG shield jumpers as follow:
+
+REF_E – closed 
+3.3V/5V – 5V position
+D4/D9 – D9 position 
+ANI_SEL – 1 position
+
+5) I connected the Shield to The Arduino Board. 
+6) I then connected the Arduino Olimex board to the USB 
+
+7) I then Downloaded the Code Shield EkgrmgCode. I compiled the code and I rang it. 
+
+8) I then downloaded the code for EKG Processing
+9) I Then attached the Ekg gel pads to “the patient”
+10)  The Ekg Processing code was compile and rang.
+
+11) The screen Opened and the Electro Cardiogram (EKG) was displayed. 
